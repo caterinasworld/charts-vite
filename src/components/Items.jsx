@@ -31,6 +31,7 @@ export default function Items() {
           <p>Weight: {pokemon.weight}</p>
         </div>
       )}
+      <button className='btn btn-primary'>Testing....</button>
     </div>
   );
 }
