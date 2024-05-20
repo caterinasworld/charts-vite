@@ -1,4 +1,5 @@
 import Root from './root';
+import Chart from '../components/Chart';
 
 export default function Charts() {
   return (
@@ -10,6 +11,7 @@ export default function Charts() {
           This is the charts page which will feature all the different charts in
           the applicaion.
         </p>
+        <Chart />
       </main>
     </>
   );
